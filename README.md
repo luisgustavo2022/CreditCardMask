@@ -12,6 +12,7 @@ A função `maskify` recebe um parâmetro `cc`, que é uma string contendo o nú
 const ccNumber = "1234-5678-9876-5432";
 const maskedNumber = maskify(ccNumber);
 console.log(maskedNumber); // Output: "####-####-####-5432"
+```
 
 ###Nota
 Essa função oferece uma camada básica de segurança para proteger dados em exibições públicas ou compartilhadas, mas não deve ser a única medida de segurança para dados sensíveis. Em cenários de produção, é recomendável implementar medidas mais robustas, como criptografia e armazenamento seguro de dados.
